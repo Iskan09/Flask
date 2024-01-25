@@ -4,5 +4,12 @@ Random
 {% endblock %}
 
 {% block content %}
-<h1>Random num = {{ num }}</h1>
+<h1>Случайное число - {{ num }}</h1>
+<section>
+    <div style=”text-indent:20px;”>
+    <form action="/random/">
+   <button>Обновление числа</button>
+  </form></div>
+
+</section>
 {%endblock%}
